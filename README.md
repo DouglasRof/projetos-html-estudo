@@ -4,3 +4,5 @@
 https://douglasrof.github.io/projetos-html-estudo/projeto-cordel/cordel.html
 
 https://douglasrof.github.io/projetos-html-estudo/projeto-zelda/index.html
+
+https://douglasrof.github.io/projetos-html-estudo/projeto-social/index.html
