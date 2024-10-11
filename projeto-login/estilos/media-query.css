@@ -8,6 +8,7 @@
 
     #conteudo{
         width: 80vw;
+        height: 300px;
     }
 
     #conteudo > div#imagem{
@@ -32,6 +33,7 @@
 
     #conteudo{
         width: 950px;
+        height: 300px;
     }
 
     #conteudo > div#imagem{
@@ -70,6 +72,7 @@
 
     #conteudo{
         width: 950px;
+        height: 330px;
     }
 
     #conteudo > div#imagem{
@@ -95,7 +98,7 @@
         font-size: 1em;
         padding: 3px;
         padding-left: 10px;
-        
+        margin: 20px 0px;
     
     }
     
