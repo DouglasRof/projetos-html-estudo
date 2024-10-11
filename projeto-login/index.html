@@ -23,21 +23,23 @@
                     
                     <form action="login.php" method="post">
                         
-                        <span class="material-symbols-outlined">person</span>
+                        <div class="campo">
+                            <span class="material-symbols-outlined">person</span>
+                            
+                            <input type="email" name="email" id="iemail" required placeholder="Seu E-mail" autocomplete="email" maxlength="35">
+                            <label for="iemail">email</label>
+                        </div>
                         
-                        <input type="email" name="email" id="iemail" required placeholder="Seu E-mail" autocomplete="email" maxlength="35">
-                       
-                        <label for="iemail">email</label>
-                        <br>
-                        <span class="material-symbols-outlined">vpn_key</span>
-
-                        <input type="password" name="senha" id="isenha" required min="8" placeholder="Sua Senha" autocomplete="current-password">
-                        
-                        <label for="isenha">senha</label>
-                        <br>
+                        <div class="campo">
+                            <span class="material-symbols-outlined">vpn_key</span>
+                            <input type="password" name="senha" id="isenha" required min="8" placeholder="Sua Senha" autocomplete="current-password" >
+                            
+                            <label for="isenha">senha</label>
+                        </div>
+                    
                         <input type="submit" value="Entrar" id="entrar">
                     
-                        <a href="esqueci.html">
+                        <a href="esqueci.html" class="botao">
                             Esqueci a senha <span class="material-symbols-outlined">mail</span>
 
                         </a>
