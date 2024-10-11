@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body, #container{
+        background-image: linear-gradient(to top, #5C7ED2, #0D3577);
+    }
+
+    #conteudo{
+        width: 80vw;
+    }
+
+    #conteudo > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px; 
+    }
+
+    #conteudo > #login {
+        float: right;
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  
+    body, #container{
+        background-image: linear-gradient(to top,#5C7ED2, #0D3577);
+    }
+
+    #conteudo{
+        width: 950px;
+    }
+
+    #conteudo > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px; 
+    }
+
+    #conteudo > #login {
+        float: right;
+        width: 50%;
+    }
+    
+    #conteudo > #login> h1 {
+        font-size: 1.5em;
+        padding: 6px;
+        text-align: center;
+    
+    }
+    
+    #conteudo > #login > p {
+        font-size: 1em;
+        padding: 3px;
+        padding-left: 10px;
+        
+    
+    }
+}
+
+@media screen and (min-width: 1200px) {
+  
+    body, #container{
+        background-image: linear-gradient(to top,#5C7ED2, #0D3577);
+    }
+
+    #conteudo{
+        width: 950px;
+    }
+
+    #conteudo > div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px; 
+    }
+
+    #conteudo > #login {
+        float: left;
+        width: 50%;
+    }
+
+    #conteudo > #login> h1 {
+        font-size: 1.5em;
+        padding: 6px;
+        text-align: center;
+    
+    }
+    
+    #conteudo > #login > p {
+        font-size: 1em;
+        padding: 3px;
+        padding-left: 10px;
+        
+    
+    }
+    
+}

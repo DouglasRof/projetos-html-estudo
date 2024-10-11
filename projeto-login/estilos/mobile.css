@@ -47,16 +47,18 @@ main{
     transform: translate(-50%, -50%);
     border-radius: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.315);
+    transition: width .1s, height .3s;
+    transition-timing-function: ease;
 }
 
-#conteudo > h1 {
+#conteudo > #login> h1 {
     font-size: 1.5em;
     padding: 6px;
     text-align: center;
 
 }
 
-#conteudo > p {
+#conteudo > #login > p {
     font-size: .8em;
     padding: 3px;
     padding-left: 10px;
@@ -74,22 +76,3 @@ div#imagem{
     display: block;
 }
 
-article > form > input{
-    display: block;
-    padding: 4px;
-    margin: auto;
-    margin-bottom: 2px;
-    border-radius: 5px;
-}
-
-input#entrar {
-    width: 180px;
-    background-color: #0D3577;
-    border-color: #0D3577;
-    color: white;
-    
-}
-
-input#esqueci{
-    width: 180px;
-}
