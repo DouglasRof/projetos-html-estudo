@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: darkslategrey;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#tomada {
+    height: 300px;
+    width: 180px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.253);
+    border: 2px solid rgb(136, 136, 136)
+
+}
+
+div#botao{
+    height: 80px;
+    width: 50px;
+    border: 2px solid black;
+    background-image: linear-gradient(to bottom, white 80%, rgb(10, 10, 10));
+}
+
+div#botao:hover {
+    background-image: linear-gradient(to bottom, lightgray 80%, rgb(10, 10, 10));
+}
