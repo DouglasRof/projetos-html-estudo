@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/*cores
+"azul" = #375EA0
+bege = #EFE3D9
+rosa = #F6B4C1
+vermelho = #F16149
+*/
+@font-face {
+    font-family: "batuphat";
+    src: url(../fontes/Batuphat\ Script.otf) format(opentype) ;
+}
+
+@font-face {
+    font-family: "cowboy";
+    src: url(../fontes/gomarice_tanomuze_cowboy.ttf) format(truetype) ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+/* Cores placeholder*/
+
+header{
+    background-color: #375EA0;
+    height: 65px;
+    width: 100vw;
+    grid-column: 1 / span 3; grid-row: 1;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1{
+    font-size: 3em;
+    color: white;
+    padding-top:15px;
+    padding-left: 10px;
+    text-align: left;
+    font-family: 'batuphat', Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.411);
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: white;
+    padding:5px;
+    font-family: ;
+    background-color:#F16149;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.322);
+}
+
+.sidebar{
+    background-color: white;
+    
+    grid-column: 1; grid-row: 2 / span 3;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;  
+}
+div.sidebar > a > span {
+    font-size: 3em;
+    text-decoration: none;
+    color: white;
+}
+#home{
+    background-color: #F16149; 
+    border-radius: 4px;  
+}
+#barrapes{
+    height: 40px;
+    width: 300px;
+    background-color: #EFE3D9; 
+    border-radius: 20px;
+    display: flex;
+    align-items: center; 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.322);
+}
+#lupa{
+    color: gray;
+    padding-left: 5px;
+}
+#pesq{
+    background-color: #EFE3D9;
+    height: 38px;
+    width: 250px;
+    border: none;
+}
+#categorias{
+    background-color: #F16149; 
+    border-radius: 4px; 
+}
+#noticias{
+    background-color: #F16149; 
+    border-radius: 4px; 
+}
+#contato{
+    background-color: #F16149; 
+    border-radius: 4px; 
+}
+#login{
+    background-color: #F16149; 
+    border-radius: 4px;  
+}
+
+.destaque{
+    background-color: white;
+    border: 2px dotted black;
+    grid-column: 2 / span 3; grid-row: 2 / span 2; 
+}
+.comemorativas{
+    background-color: white;
+    border: 2px dotted black;
+    grid-column: 2; grid-row: 4;
+}
+
+.novas{
+    background-color: white;
+    border: 2px dotted black;
+    grid-column: 3; grid-row: 4;
+}
+
+.populares{
+
+    background-color: white;
+    border: 2px dotted black;
+    grid-column: 1 / span 4; grid-row: 5;
+    height: 200px;
+}
+/*=======================================*/
+.grid{
+    display: grid;
+    grid-template-columns: 60px 1fr 1fr;
+    grid-template-rows: 65px 100px 100px 100px 1fr;
+    gap: 3px;
+}
+
+footer{
+    text-align: center;
+}
