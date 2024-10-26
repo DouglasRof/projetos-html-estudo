@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Tela Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="case">
+            <h1>Login</h1>
+
+            <p>Preencha seus dados para acessar o seu ambiente!</p>
+
+            <input type="email" name="Email" id="Email" placeholder="Seu email">
+            <label for="Email"></label>
+
+            <input type="password" name="senha" id="senha" placeholder="Sua senha">
+            <label for="senha"></label>
+            <span><a href="#">Esqueceu sua senha?</a></span>
+            <input type="button" value="Entrar" class="entrar" id="entrar">
+            <label for="entrar"></label>
+            
+        </div>
+            
+        <div class="flip">
+            <h2>Não criou sua conta ainda?</h2>
+            <input type="button" value="Resgistrar-se" name="regis" id="regis" onclick="flipar()">
+            <label for="regis"></label>
+
+            <div class="retlogin"></div>
+        </div>
+
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
